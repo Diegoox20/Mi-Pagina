@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>D!EGO FPS STORE</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="fondo"></div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <img src="assets/img/logo.jpg" class="logo">
+    <div class="fondo-logo"></div>
+  
+</div>
+
+<!-- CONTENIDO -->
+<div class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text">
+            <span class="badge">⚡ Entrega rápida y segura</span>
+            <h1>D!EGO FPS STORE <br> <span>TU MEJOR OPCIÓN</span></h1>
+            <p>Optimización de PC, Mods para Fivem, Cheats 100% seguros para Free Fire y mejoras de rendimiento.</p>
+
+            <a class="btn" href="https://discord.gg/hzme39E7yh" target="_blank">
+                💬 Comprar ahora
+            </a>
+
+            <div class="stats">
+                <div><b>24h</b><br>Soporte</div>
+                <div><b>100%</b><br>Seguro</div>
+                <div><b>Rápido</b><br>Entrega</div>
+            </div>
+        </div>
+
+        <!-- TARJETAS DERECHA -->
+        <div class="hero-cards">
+            <div class="box">⚡ Máximo rendimiento</div>
+            <div class="box">🎧 Soporte 24h</div>
+            <div class="box">🔒 100% seguro</div>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="categorias">
+    <h2>Categorías</h2>
+
+    <div class="cards">
+
+      <div class="card" onclick="abrirPopup('pc')">
+    <img src="assets/img/Opti.jpg">
+    <h3>Optimización PC</h3>
+</div>
+
+<div class="card" onclick="abrirPopup('mods')">
+    <img src="assets/img/Mods.jpg">
+    <h3>Mods para Fivem</h3>
+</div>
+
+<div class="card" onclick="abrirPopup('ff')">
+    <img src="assets/img/Cheatff.jpg">
+    <h3>Cheats Free Fire</h3>
+</div>
+
+<div class="card" onclick="abrirPopup('Streaming')">
+    <img src="assets/img/streaming.jpg">
+    <h3>Cuentas Streaming</h3>
+</div>
+<div class="card" onclick="abrirPopup('nitro')">
+    <img src="assets/img/nitro.jpg">
+    <h3>Nitro Discord</h3>
+</div>
+    </div>
+</section>
+
+</div>
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="cerrarPopup()">&times;</span>
+
+        <img id="popup-img" src="">
+        <h2 id="popup-title"></h2>
+        <p id="popup-text"></p>
+
+        <a class="btn" href="https://discord.com/invite/hzme39E7yh" target="_blank">
+            💬 Comprar ahora
+        </a>
+    </div>
+    </div> 
+<!-- REDES -->
+<div class="redes">
+    <a href="https://discord.gg/hzme39E7yh" target="_blank">
+        <img src="assets/img/discord.png">
+    </a>
+
+    <a href="https://www.instagram.com/diego.pf444" target="_blank">
+        <img src="assets/img/instagram.png">
+    </a>
+
+    <a href="https://www.tiktok.com/@diegooox_rp" target="_blank">
+        <img src="assets/img/tiktok.png">
+</div>
+<canvas id="particles"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
